@@ -13,4 +13,7 @@ int main(){
 	else if(tb/2.3<bb){
 		cout<<"Anda Termasuk Overweight";
 	}
+		else if(tb/2.5<=bb<=tb/2.3){
+		cout<<"Anda Termasuk normal";
+	}
 }
