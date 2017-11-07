@@ -20,4 +20,15 @@ int main(){
 		cout<<"Potongan Pajak  : 15%"<<endl;
 		cout<<"Gajih Bersih    :"<<gber<<endl;
 	}
+		else{
+		cout<<"Gajih Perjam     :Rp 6.000"<<endl;
+		cout<<"++Jam Kerja Standart++"<<endl;
+		cout<<"Total Jam Kerja :"<<jk<<"jam"<<endl;
+		gtot=jk*gp;
+		cout<<"Gajih Total     :"<<gtot<<endl;
+		gber=gtot-(0.15*gtot);
+		cout<<"Potongan Pajak  :15%"<<endl;
+		cout<<"Gajih Bersih    :"<<gber;
+		
+	}	
 }
