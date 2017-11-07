@@ -16,4 +16,10 @@ int main(){
 		z=y*x;
 		cout<<"Luas Persegi Panjang           :"<<z<<"cm2"<<endl;
 	}
+	else if(p==2){
+		cout<<"Masukkan tinggi segitiga       :";cin>>x;
+		cout<<"Masukkan nilai alas segitiga   :";cin>>y;
+		z=(x*y)/2;
+		cout<<"Luas Segitiga                  :"<<z;
+	}
 }
